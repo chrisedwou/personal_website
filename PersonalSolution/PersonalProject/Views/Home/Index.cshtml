@@ -1,0 +1,77 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="container">
+    <div class="row">
+        <div class="col-lg-4">
+            <div id="lhInfo">
+                <h2 id="textLarge">Chris <br> Edwards</h2>
+                <img src="https://i.imgur.com/oDN41O4.jpg" alt="" id="chrisImg">
+                <div id="myModal" class="modal">
+
+                    <!-- The Close Button -->
+                    <span class="close">&times;</span>
+
+                    <!-- Modal Content (The Image) -->
+                    <img class="modal-content" id="img01">
+
+                    <!-- Modal Caption (Image Text) -->
+                    <div id="caption"></div>
+                </div>
+                <div id="smLinks">
+                    <a href="https://www.linkedin.com/in/christopher-edwards-17aba1183/" style="color:black;" target="_blank"><i class="fab fa-linkedin fa-2x" id="smButton" title="LinkedIn"></i></a>
+                    <a href="https://github.com/chrisedwou" style="color:black;" target="_blank"><i class="fab fa-github fa-2x" id="smButton" title="GitHub"></i></a>
+                    <a href="https://github.com/chrisedwou/Resume/raw/main/Resume%20Chris%20Edwards%202021.pdf" download style="color:black;"><i class="fas fa-file-download fa-2x" id="smButton" title="Download Resume"></i></a>
+                </div>
+                <p class="textMedium" id="aboutMe">About Me</p>
+                <p id="textSmall">Hello. I'm Chris, a computer science student graduating in 2021. During my time at Western Oregon University I've developed skills in 
+                C#, MVC, Object Oriented Programming, and Agile/Scrum development. Independently, I've worked on Python data vizualization projects, console applications, as well as game development
+                using the Unity Game Engine. <br> <br /> My current focus is the development of my senior project, a web application that utilizes ASP.net framework. It consists of complex back-end database management,
+                 front end design, and business logic. My hope is to land a job as a full-stack engineer, developer, or data scientist. </p>
+                <p class="textMedium">Skills</p>
+                <div id="skillsBox">
+                    <img src="~/icons/csharp.png" class="iconSkill" title="Expand">
+                    <img src="~/icons/python.webp" class="iconSkill">
+                    <img src="~/icons/cpp.png" class="iconSkill">
+                    <br />
+                    <img src="~/icons/javascript.webp" class="iconSkill">
+                    <img src="~/icons/html.png" class="iconSkill">
+                    <img src="~/icons/css.png" class="iconSkill">
+                    <br />
+                    <img src="~/icons/git.webp" class="iconSkill">
+                    <img src="~/icons/Linux.png" class="iconSkill">
+                    <img src="~/icons/windows.webp" class="iconSkill">
+                    <br />
+                    <img src="~/icons/sqlserver.webp" class="iconSkill">
+                    <img src="~/icons/asp2.png" class="iconSkill">
+                </div>
+            </div>
+        </div>
+        <div class="col-lg-8" id="middle">
+            <ul>
+                <li>
+                    <div id="vidLi">
+                        <h1>Random Movie Picker</h1>
+                        <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/Y1Q8a2jmfMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <a id="lilLink" href="https://github.com/chrisedwou/random_movie_gen" target="_blank"><p id="textSmallB">[ View on GitHub ]</p></a>
+                    </div>
+                </li>
+                <li>
+                    <div id="vid">
+                        <h1>Random Movie Picker</h1>
+                        <iframe id="vid" width="560" height="315" src="https://www.youtube.com/embed/Y1Q8a2jmfMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <a id="lilLink" href="https://github.com/chrisedwou/random_movie_gen" target="_blank"><p id="textSmallB">[ View on GitHub ]</p></a>
+                    </div>
+                </li>
+                <li>
+                    <div id="vid">
+                        <h1>Random Movie Picker</h1>
+                        <iframe  id="vid"  width="560" height="315" src="https://www.youtube.com/embed/Y1Q8a2jmfMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        <a id="lilLink"  href="https://github.com/chrisedwou/random_movie_gen" target="_blank"><p id="textSmallB">[ View on GitHub ]</p></a>
+                    </div>
+                </li>
+            </ul>
+            
+        </div>
+    </div>
+</div>
